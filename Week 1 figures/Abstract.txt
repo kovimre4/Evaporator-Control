@@ -1,0 +1,1 @@
+As part of the Week 1 activities a Simulink model was developed for the components of the evaporator plant. The Evaporator, Heater Steam Jacket, Separator, Condenser subsystems were individually evaluated then assembled into a model of the whole process representing the whole evaporator plant. This was then carefully tested against a set of nominal values.
