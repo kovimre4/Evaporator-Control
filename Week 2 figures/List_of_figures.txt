@@ -13,6 +13,7 @@ Linearised entire model entire
  Figure of bode plot of linearised system*-1
  Figure of bode plot of linearised system*-1*(0.7+0.7i)
  Figure of bode plot of 45 phase margin system
+Normal method to find gain was graphical
  Figure of bode plot of 
  
 
