@@ -1,0 +1,27 @@
+Lags
+ Figure of Lag controllers
+ Figure of lag implementation
+ Figure of lag test
+
+L2 P controller heuristic damping factor 0.2 50% overshoot
+L2-F2 controller for entire plant not just separator
+ Figure of model with controller
+ Figure of response with 50% overshoot with Kp = -50, I = 0
+
+L2 P controller linearised model 45 degree PM
+Linearised entire model entire 
+ Figure of bode plot of linearised system*-1
+ Figure of bode plot of linearised system*-1*(0.7+0.7i)
+ Figure of bode plot of 45 phase margin system
+Normal method to find gain was graphical
+ Figure of bode plot of 
+ 
+
+PI 40 degree PM
+ Figure  
+
+Saturation
+  
+
+Final Controller Tests Against Disturbances
+ 
