@@ -9,12 +9,11 @@ L2-F2 controller for entire plant not just separator
  Figure of response with 50% overshoot with Kp = -50, I = 0
 
 L2 P controller linearised model 45 degree PM
-Linearised entire model entire 
- Figure of bode plot of linearised system*-1
- Figure of bode plot of linearised system*-1*(0.7+0.7i)
+Linearised entire model
+ Figures of freq response
  Figure of bode plot of 45 phase margin system
-Normal method to find gain was graphical
- Figure of bode plot of heuristic model
+Normal method to find gain was graphical/iteritive
+ Figure of bode plot of heuristic model	
  Figure of responses of 45 phase margin model vs heuristic model?
 
 PI 40 degree PM
@@ -27,3 +26,4 @@ Saturation
 Final Controller Tests Against Disturbances
  Figure of saturated stable response
  Figure of stable response
+Saturation changes 0.2 damping ratio model response due to F2 saturation

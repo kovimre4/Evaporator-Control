@@ -1,0 +1,2 @@
+Abstract
+In week 2 we introduce control to our system. To make the plant more realistic we first add controller lag. Then, we introduce proportional and then PI control for L_2 〖-F〗_2 feedback.
