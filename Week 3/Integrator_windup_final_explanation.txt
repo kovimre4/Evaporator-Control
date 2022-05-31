@@ -15,4 +15,13 @@ F200 at saturated level to return P2 to 50.5 for long time due to integrator win
 
 Therefore P2 overshoots 50.5 by a lot until F200 controller comes back from wind up
 
-- Clamp PI L2 at +-208
+- Clamp P2-F200 PI at +-208
+removes some overshoot
+
+- Clamp L2 - makes sense physically
+makes stable
+
+- Clamp X2-P100 PI at +-194.7
+removes a lot of overshoot
+
+- Clamp L2-F2 PI at _+2
