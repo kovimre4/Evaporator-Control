@@ -1,0 +1,27 @@
+Integral Windup
+
+X1 increase to 25 from 5
+
+P2 below demand
+
+F200 required from control too negative therefore saturates and P2 does not return 
+to demand
+
+F200 control demand continues to integrate and become more negative
+
+X1 decrease back to 5 - operating point (returns P2 to 50.5)
+
+F200 at saturated level to return P2 to 50.5 for long time due to integrator wind up
+
+Therefore P2 overshoots 50.5 by a lot until F200 controller comes back from wind up
+
+- Clamp P2-F200 PI at +-208
+removes some overshoot
+
+- Clamp L2 - makes sense physically
+makes stable
+
+- Clamp X2-P100 PI at +-194.7
+removes a lot of overshoot
+
+- Clamp L2-F2 PI at _+2
