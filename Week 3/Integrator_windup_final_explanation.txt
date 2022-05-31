@@ -2,7 +2,7 @@ Integral Windup
 
 X1 increase to 25 from 5
 
-P2 below demand
+X1 change sends P2 below demand P2, integrator tries to control with F200
 
 F200 required from control too negative therefore saturates and P2 does not return 
 to demand
