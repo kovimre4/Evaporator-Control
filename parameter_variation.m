@@ -64,3 +64,4 @@ settling_times(:,:,:,2) = sts_P2;
 settling_times(:,:,:,3) = sts_X2;
 
 save('settling_times_parallel.mat', 'settling_times', 'rhoAs', 'Ms', 'UA2s')
+save('simOuts', 'simOut')
