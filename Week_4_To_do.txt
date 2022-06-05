@@ -1,0 +1,13 @@
+To do
+
+1. Fix linearised model if possible
+
+2. Gain schedule multivariable control
+
+3. Tests
+   F1, X1, T1 brown noise test
+   L2, P2, X2 staircase tests?
+
+4. Compare to: no control? / Before multivariable control / Just gain scheduling single control
+
+5. Presentation? Report
