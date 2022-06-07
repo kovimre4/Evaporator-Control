@@ -1,0 +1,74 @@
+GF1 Final Report Plan
+
+NB:	10 page limit, concise appendix, showcase benefits of final model,
+	what we learned, challenges
+
+Week 3
+
+ 1	Controllers for X2 and P2
+ 2	Robustness to process changes
+ 3	Integrator wind-up
+
+Week 4
+
+ 1	Introduction
+	1.	Evaluate whether the controllers you have designed over the 
+		previous 3 weeks perform sufficiently well at a number 
+		of operating points — see section 3 for background and an
+ 		explanation of this.
+
+	2.	If your conclusion to task 1 is negative, investigate how much 
+		improvement you can obtain by using a gain-scheduled controller design.
+
+	3.	Design a multivariable controller using state-feedback — see 
+		section 4 for an explanation of this.
+ 
+ 	4.	Combine the results of the investigations above — either present a 
+		constant-gain statefeedback design, or a gain-scheduled state-feedback 
+		design if necessary, which works sufficiently well over the range of operating points.
+ 
+	5.	Justify your final recommendation for a control system design for the 
+		evaporator, and	demonstrate your design.
+
+ 2	Planning and Execution
+
+ 3	Change of Operating Point
+
+ 4	State Feedback
+	4.1 Basic state feedback
+	4.2 Integral action
+	4.3 Optimal Control
+	4.4 State feedback and gain scheduling
+
+ 5	Demonstration
+	demonstrate its design => section 6
+
+ 6	Final Report
+	Your final report should cover the whole project, not just the final week. Your interim reports
+	should be attached as appendices, and material in them need not be repeated; you should refer
+	to them as appropriate.
+	The report should not be a blow-by-blow account of what you did. Imagine it is a report to
+	a plant manager, recommending a control system to be installed on the process. You need to
+	show that you have examined some alternatives, how they compare, and why (s)he should have
+	confidence in your recommendations. 
+
+	Assume that your reader is hard-nosed: you will want to show off how clever you have been,
+	but (s)he will want to know whether your control scheme	will really work if implemented on
+	the real process.
+	
+	Final Model Tests:
+	Will it work when the process parameters change? Robustness to process changes, changes to L2/P2 set points where X2 can stay at 25
+
+	Does it keep the process safely away from its constraints? 
+
+	Does it keep the product composition close to its set-point when typical disturbances come along?
+
+	Will it do a good job when the operating point changes?
+
+	These are some of the questions you might address.
+
+	The part of your report covering the last week’s group activity should be your own work. It is
+	permissible to have the same graphs, tables, etc as the other reports in your group, and you can
+	cross-refer to each other’s reports, for example when referring to work done by other members
+	of the group. It is also permissible to have a common ‘executive summary’ of a paragraph or
+	so, summarising your overall conclusions and recommendations.
